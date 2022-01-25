@@ -44,5 +44,5 @@ app.get('/',(req,res)=>{
 
 //set up port for connection
 app.listen(port, ()=>{
-    console.log("Connected on port")
+    console.log(`Connected on ${port}`)
 })
